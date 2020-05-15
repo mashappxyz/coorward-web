@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = {"/open":["static\u002Fchunks\u002F6278397b.8cb1a9809c43f0bc5848.js"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
