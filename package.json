@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -fr docs && next export && touch out/.nojekyll && echo \"coorward.mashapp.xyz\" > out/CNAME",
-    "start": "next start",
-    "deploy": "yarn build && git add out/ && git commit -m \"Deploy to gh-pages\"  && git subtree push --prefix out origin gh-pages"
+    "build": "next build && rm -fr docs && next export",
+    "start": "next start"
   },
   "dependencies": {
     "@blueprintjs/core": "^3.26.0",
@@ -20,5 +19,9 @@
   "devDependencies": {
     "@types/node": "^13.13.4",
     "@types/react": "^16.9.34"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:mashappxyz/coorward-web.git"
   }
 }

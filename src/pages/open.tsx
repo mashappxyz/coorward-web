@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from "next/router";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Button, H3 } from "@blueprintjs/core";
